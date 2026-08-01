@@ -29,9 +29,11 @@ def main() -> None:
             )
         )
     manuscript = (REPOSITORY / "main.tex").read_text(encoding="utf-8")
-    generic_class = r"\documentclass[twocolumn,amsmath,amssymb,longbibliography,nofootinbib,floatfix]{revtex4-2}"
+    generic_class = r"\documentclass[10pt,letterpaper,twoside]{article}"
     if generic_class not in manuscript:
-        raise SystemExit("generic two-column manuscript class contract changed")
+        raise SystemExit("one-column preprint class contract changed")
+    if r"\usepackage{code/manuscript_assets/researchpreprint}" not in manuscript:
+        raise SystemExit("shared preprint style is missing")
     if DELEGATE:
         command = list(DELEGATE)
         if command[0] == "python":

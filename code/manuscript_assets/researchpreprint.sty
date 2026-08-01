@@ -1,0 +1,87 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{code/manuscript_assets/researchpreprint}[2026/08/01 neutral one-column research preprint]
+
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{microtype}
+\RequirePackage[letterpaper,top=0.84in,bottom=0.82in,left=1.17in,right=1.17in,
+  headheight=14pt,headsep=18pt,footskip=28pt]{geometry}
+\RequirePackage{fancyhdr}
+\RequirePackage{titlesec}
+\RequirePackage{caption}
+\RequirePackage{etoolbox}
+\RequirePackage[numbers,sort&compress]{natbib}
+\RequirePackage[hidelinks]{hyperref}
+
+\hypersetup{hidelinks}
+\urlstyle{same}
+\frenchspacing
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\textfloatsep}{14pt plus 3pt minus 3pt}
+\setlength{\floatsep}{12pt plus 3pt minus 3pt}
+\setlength{\intextsep}{12pt plus 3pt minus 3pt}
+
+\titleformat{\section}[runin]
+  {\normalfont\bfseries}{\thesection.}{0.45em}{}[.]
+\titlespacing*{\section}{0pt}{2.2ex plus 0.6ex minus 0.3ex}{0.7em}
+\titleformat{\subsection}[runin]
+  {\normalfont\bfseries}{\thesubsection.}{0.45em}{}[.]
+\titlespacing*{\subsection}{0pt}{1.8ex plus 0.5ex minus 0.2ex}{0.65em}
+\titleformat{\subsubsection}[runin]
+  {\normalfont\itshape}{\thesubsubsection.}{0.45em}{}[.]
+\titlespacing*{\subsubsection}{0pt}{1.5ex plus 0.4ex minus 0.2ex}{0.55em}
+
+\captionsetup{font=small,labelfont=bf,labelsep=colon}
+\renewcommand{\figurename}{Fig.}
+\numberwithin{equation}{section}
+
+\makeatletter
+\newcommand{\RPaffiliation}{}
+\newcommand{\RPemail}{}
+\newcommand{\affiliation}[1]{\gdef\RPaffiliation{#1}}
+\newcommand{\email}[1]{\gdef\RPemail{#1}}
+\renewcommand{\maketitle}{%
+  \begingroup
+  \begin{center}
+    \vspace*{-0.18in}
+    {\large\bfseries\MakeUppercase{\@title}\par}
+    \vspace{0.7em}
+    {\normalsize\textsc{\@author}\par}
+    \ifx\RPaffiliation\@empty\else
+      \vspace{0.25em}{\small\RPaffiliation\par}
+    \fi
+    \ifx\RPemail\@empty\else
+      {\small\href{mailto:\RPemail}{\texttt{\RPemail}}\par}
+    \fi
+  \end{center}
+  \endgroup
+  \thispagestyle{plain}
+  \vspace{0.45em}
+}
+\makeatother
+
+\renewenvironment{abstract}
+  {\par\small\noindent\textbf{Abstract. }\ignorespaces}
+  {\par\normalsize\vspace{0.65em}}
+\newenvironment{keywords}
+  {\par\small\noindent\textbf{Key words. }\ignorespaces}
+  {\par\normalsize\vspace{0.45em}}
+\newenvironment{MSCcodes}
+  {\par\small\noindent\textbf{MSC codes. }\ignorespaces}
+  {\par\normalsize\vspace{0.45em}}
+
+\newenvironment{ruledtabular}{\par\centering}{\par}
+\newenvironment{widetext}{}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\footnotesize MOLENA HUYNH}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\AtBeginEnvironment{thebibliography}{\small}

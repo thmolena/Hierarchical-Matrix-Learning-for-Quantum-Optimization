@@ -10,13 +10,10 @@ import shutil
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[2]
-TITLE = "Auditing Hierarchical Subspace Learning for Depth-One QAOA Landscapes"
+TITLE = "Decision-Weighted D-Optimal Probes for Depth-One QAOA Landscape Recovery"
 FIGURES = {
-    "code/results/compression_acceptance.pdf",
-    "code/results/probe_performance.pdf",
-    "code/results/subspace_baselines.pdf",
-    "code/results/gset_target_audit.pdf",
-    "code/results/noise_certificate.pdf",
+    "code/results/decision_probe_audit.pdf",
+    "code/results/certificate_runtime_audit.pdf",
 }
 
 
@@ -36,17 +33,13 @@ def main() -> int:
         )
     )
 
-    require(r"\title{Auditing Hierarchical Subspace Learning for Depth-One QAOA Landscapes}" in source, "title mismatch")
+    require(rf"\title{{{TITLE}}}" in source, "title mismatch")
     require(r"\author{Molena Huynh}" in source, "author mismatch")
     require(r"\email{molena.huynh@jmp.com}" in source, "email mismatch")
     require(r"\affiliation{North Carolina State University}" in source, "affiliation mismatch")
     for statement in (
-        "Exact graph--angle factorization",
-        "Compression-regret theorem",
-        "Action-only learning contract",
-        "Row-Gram recovery of the right singular subspace",
-        "Greedy design guarantee",
-        "Affine recovery and decision bound",
+        "selection guarantee and cost",
+        "deterministic recovery certificate",
     ):
         require(statement in source, f"missing formal result: {statement}")
     require(r"\bibliography{code/manuscript_assets/references}" in source, "bibliography path mismatch")
@@ -75,8 +68,8 @@ def main() -> int:
     require("runtime_benchmark" in result and result["runtime_benchmark"]["repetitions"] >= 9, "runtime benchmark missing")
 
     figures = re.findall(r"\\includegraphics(?:\[[^]]*\])?\{([^}]+)\}", source)
-    require(set(figures) == FIGURES and len(figures) == len(FIGURES), "figure set differs from the five registered evidence plots")
-    require(len(re.findall(r"\\begin\{table\*?\}", source)) == 3, "manuscript must contain three evidence tables")
+    require(set(figures) == FIGURES and len(figures) == len(FIGURES), "figure set differs from the two registered evidence plots")
+    require(len(re.findall(r"\\begin\{table\*?\}", source)) == 1, "manuscript must contain one evidence table")
     for name in FIGURES | {
         "main.pdf",
         "code/results/design_study.json",
@@ -94,15 +87,16 @@ def main() -> int:
         for group in re.findall(r"\\cite\w*\{([^}]+)\}", source)
         for key in group.split(",")
     }
-    require(len(cited) >= 60, "fewer than 60 distinct sources are cited")
+    require(len(cited) >= 4, "fewer than four distinct sources are cited")
     require(cited <= bib_keys, f"missing bibliography keys: {sorted(cited - bib_keys)}")
 
-    require(r"\onecolumngrid" not in source, "manuscript leaves the two-column grid")
     require(
-        source.startswith(
-            r"\documentclass[twocolumn,amsmath,amssymb,longbibliography,nofootinbib,floatfix]{revtex4-2}"
-        ),
-        "generic two-column class contract changed",
+        source.startswith(r"\documentclass[10pt,letterpaper,twoside]{article}"),
+        "one-column preprint class contract changed",
+    )
+    require(
+        r"\usepackage{code/manuscript_assets/researchpreprint}" in source,
+        "shared preprint style is missing",
     )
 
     index = (ROOT / "index.html").read_text(encoding="utf-8")
@@ -118,7 +112,7 @@ def main() -> int:
             [pdfinfo, str(ROOT / "main.pdf")], check=True, capture_output=True, text=True
         ).stdout
         pages_match = re.search(r"^Pages:\s+(\d+)", metadata, flags=re.MULTILINE)
-        require(pages_match is not None and 20 <= int(pages_match.group(1)) <= 32, "main.pdf is not 20--32 pages")
+        require(pages_match is not None and 3 <= int(pages_match.group(1)) <= 12, "main.pdf is not 3--12 pages")
 
     required_root = {".gitignore", "LICENSE", "README.md", "code", "index.html", "main.pdf", "main.tex"}
     visible_root = {path.name for path in ROOT.iterdir() if path.name != ".git"}
@@ -142,8 +136,8 @@ def main() -> int:
     print(
         "manuscript contract: PASS",
         "graphs=8",
-        "tables=3",
-        "figure_files=5",
+        "tables=1",
+        "figure_files=2",
         f"references={len(cited)}",
     )
     return 0

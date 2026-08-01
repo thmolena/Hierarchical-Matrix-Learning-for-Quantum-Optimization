@@ -1,4 +1,5 @@
-\documentclass[reprint,twocolumn,notitlepage,superscriptaddress,floatfix]{revtex4-2}
+\documentclass[10pt,letterpaper,twoside]{article}
+\usepackage{code/manuscript_assets/researchpreprint}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb,amsthm,mathtools,bm}
 \usepackage{booktabs,array}
@@ -21,6 +22,8 @@
 \affiliation{North Carolina State University}
 \date{August 1, 2026}
 
+\maketitle
+
 \begin{abstract}
 A reusable subspace model of parameter landscapes is useful only when a small
 set of observed angles determines both the surface and its optimizer.  We
@@ -42,8 +45,9 @@ speedup is claimed.  The resulting contribution is a decision-aware sampling
 rule with an explicit validity boundary, not a universal compression claim.
 \end{abstract}
 
-\keywords{QAOA, optimal design, submodular selection, response surfaces, MaxCut}
-\maketitle
+\begin{keywords}
+QAOA, optimal design, submodular selection, response surfaces, MaxCut
+\end{keywords}
 
 \section{Landscape recovery}
 
@@ -163,11 +167,11 @@ random comparator comprises 64 fixed seeds at every budget.  Morton-spaced,
 largest-leverage, unweighted D-optimal, and decision-weighted D-optimal designs
 use the identical basis and recovery rule.
 
-\begin{table*}[t]
+\begin{table}[t]
 \caption{\label{tab:methods}Recovery from 16 of 1024 angle values on eight
 authenticated Gset targets.  The interval is the interquartile range across
 64 fixed random seeds.  The last column is $\sigma_{\min}(U_S)$.}
-\centering\small
+\centering\scriptsize
 \begin{tabular}{lrrrrr}
 \toprule
 Probe rule & Median rel. error & Random IQR & Max. regret & Exact optima & $\sigma_{\min}$\\
@@ -175,7 +179,7 @@ Probe rule & Median rel. error & Random IQR & Max. regret & Exact optima & $\sig
 \DesignMethodRows
 \bottomrule
 \end{tabular}
-\end{table*}
+\end{table}
 
 Table~\ref{tab:methods} shows that decision weighting changes the estimand
 rather than uniformly lowering surface error.  Its mean relative error is
@@ -185,7 +189,7 @@ regret is 13.2\% lower and it recovers two additional grid optimizers.  The
 larger maximum regret.  Figure~\ref{fig:decision} resolves these aggregate
 comparisons by probe budget and by confirmation graph.
 
-\begin{figure*}[t]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.94\textwidth]{code/results/decision_probe_audit.pdf}
 \caption{\label{fig:decision}Probe-budget audit.  Top: surface error and grid
@@ -193,7 +197,7 @@ regret, with the random interquartile range.  Bottom left: exact optimizer
 recovery.  Bottom right: targetwise regret at the predeclared 16-probe budget.
 The remaining regret is concentrated on G1 and G6, which share the same
 unweighted topology.}
-\end{figure*}
+\end{figure}
 
 At 24 and more probes, the selected decision weight is often zero and the two
 D-optimal designs coincide.  The method is therefore most consequential in
@@ -206,14 +210,14 @@ control: at rank 12, row-Gram learning takes a median 2.98 ms, hierarchical
 actions 8.36 ms, and thin SVD 27.10 ms.  Reduced retained-operator storage does
 not imply a wall-clock advantage at $120\times1024$.
 
-\begin{figure*}[t]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.86\textwidth]{code/results/certificate_runtime_audit.pdf}
 \caption{\label{fig:certificate}Validity and cost.  Left: observed maximum
 landscape error and the deterministic bound in Theorem~\ref{thm:recovery}.
 Right: median learning time with interquartile bands over 15 repetitions; the
 hierarchy construction and data-loading stages are excluded for every method.}
-\end{figure*}
+\end{figure}
 
 \section{Scope and reproducibility}
 
@@ -229,7 +233,7 @@ one, hardware noise, or global MaxCut approximation quality.  The method
 improves a low-budget angle-selection decision on this corpus.  The disclosed
 source and budget boundaries are part of that claim.
 
-\bibliographystyle{apsrev4-2}
+\bibliographystyle{plainnat}
 \bibliography{code/manuscript_assets/references}
 
 \end{document}
