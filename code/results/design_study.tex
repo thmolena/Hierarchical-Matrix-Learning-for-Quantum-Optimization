@@ -1,0 +1,49 @@
+\newcommand{\DesignCompressionRows}{%
+0 & 1e-09 & 1e-07 & 57.72 & 5.91e-08 & 0.00e+00 \\
+1 & 1e-06 & 1e-05 & 35.84 & 7.12e-06 & 3.77e-07 \\
+2 & 1e-04 & 5e-04 & 15.36 & 2.87e-04 & 0.00e+00 \\
+3 & 1e-03 & 5e-03 & 8.84 & 3.39e-03 & 2.56e-04 \\
+}
+\newcommand{\DesignMethodRows}{%
+random (64 seeds) & 2.467e-02 & [1.55e-02, 3.78e-02] & 3.378e-02 & 2.0/8 & 2.666e-03 \\
+Morton-spaced & 3.682e-02 & -- & 1.746e-02 & 4/8 & 1.215e-04 \\
+largest leverage & 4.392e-02 & -- & 3.473e-02 & 4/8 & 6.457e-07 \\
+unweighted log-det & 4.061e-03 & -- & 1.997e-03 & 4/8 & 1.260e-01 \\
+decision-weighted log-det & 4.041e-03 & -- & 1.734e-03 & 6/8 & 1.305e-01 \\
+}
+\newcommand{\DesignSubspaceRows}{%
+hierarchical action iteration & 3.225e-03 & 3.216e-04 & 8.36 [8.05, 8.61] & 4.041e-03 & 1.734e-03 & 6/8 \\
+row Gram $AA^{\mathsf{T}}$ & 3.225e-03 & 2.000e-12 & 2.98 [2.87, 3.05] & 4.041e-03 & 1.734e-03 & 6/8 \\
+dense thin SVD & 3.225e-03 & 0.000e+00 & 27.10 [26.31, 27.77] & 4.041e-03 & 1.734e-03 & 6/8 \\
+}
+\newcommand{\DesignCountRows}{%
+12 & 0.25 & 4.366e-03 & 1.734e-03 & 6/8 \\
+16 & 0.25 & 4.041e-03 & 1.734e-03 & 6/8 \\
+24 & 0 & 4.089e-03 & 1.450e-04 & 6/8 \\
+32 & 0 & 4.138e-03 & 1.450e-04 & 6/8 \\
+48 & 0.05 & 4.085e-03 & 1.450e-04 & 6/8 \\
+64 & 0.05 & 4.098e-03 & 1.450e-04 & 6/8 \\
+}
+\newcommand{\DesignGraphRows}{%
+G1 & 800 & 19176 & 9.092e-03 & 1.734e-03 & no \\
+G6 & 800 & 19176 & 9.092e-03 & 1.734e-03 & no \\
+G11 & 800 & 1600 & 3.237e-03 & 0.000e+00 & yes \\
+G14 & 800 & 4694 & 4.195e-03 & 0.000e+00 & yes \\
+G18 & 800 & 4694 & 4.195e-03 & 0.000e+00 & yes \\
+G22 & 2000 & 19990 & 3.859e-03 & 0.000e+00 & yes \\
+G32 & 2000 & 4000 & 3.237e-03 & 0.000e+00 & yes \\
+G43 & 1000 & 9990 & 3.886e-03 & 0.000e+00 & yes \\
+}
+\newcommand{\DesignMedianError}{4.041e-03}
+\newcommand{\DesignMaxRegret}{1.734e-03}
+\newcommand{\DesignExactCount}{6}
+\newcommand{\RandomMedianError}{2.467e-02}
+\newcommand{\RandomErrorQOne}{1.553e-02}
+\newcommand{\RandomErrorQThree}{3.780e-02}
+\newcommand{\MFOperatorProducts}{3222076}
+\newcommand{\RowGramProducts}{16220160}
+\newcommand{\ColumnGramProducts}{125829120}
+\newcommand{\MFMedianMillis}{8.36}
+\newcommand{\RowGramMedianMillis}{2.98}
+\newcommand{\ThinSVDMedianMillis}{27.10}
+\newcommand{\DesignHash}{01ba203eb224910b2a2371ea2b62840c8afd87fe935a446d86aaf403b929931d}

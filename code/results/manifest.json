@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "title": "Auditing Hierarchical Subspace Learning for Depth-One QAOA Landscapes",
+  "package": "hqml-hierarchical-gctr",
+  "claim_status": "application-specific audit; no new generic matrix-free, hierarchical, subspace-iteration, or log-determinant algorithm is claimed",
+  "weighted_gset": false,
+  "original_data_source": "https://web.stanford.edu/~yyye/yyye/Gset/",
+  "locked_results": {
+    "path": "code/results/locked_results.json",
+    "sha256": "0dbfa4401c4a5adc5a4421cceaecae325f4043eb49d4c505dc9367c47f4a3e89",
+    "semantic_sha256": "01ba203eb224910b2a2371ea2b62840c8afd87fe935a446d86aaf403b929931d"
+  },
+  "component_results": {
+    "path": "code/results/results.json",
+    "sha256": "92acc0a6f21266bdcc9e37012a3b2fdeb650fb17ad0eabd5c54299c711cc8c3a"
+  },
+  "registered_study": {
+    "path": "code/results/design_study.json",
+    "gset_graphs": 8,
+    "compression_candidates": 4,
+    "deterministic_probe_strategies": 4,
+    "random_probe_replicates": 64,
+    "probe_counts": [12, 16, 24, 32, 48, 64],
+    "noise_cases": 320,
+    "timing_repetitions_per_rank": 15,
+    "subspace_baselines": [
+      "hierarchical action iteration",
+      "row Gram A A^T",
+      "direct thin SVD"
+    ]
+  },
+  "commands": {
+    "install": "python -m pip install -e code",
+    "download": "python code/scripts/download_data.py",
+    "reproduce": "python code/scripts/reproduce.py",
+    "figures": "python code/scripts/make_figures.py",
+    "validate": "python code/scripts/validate_release.py"
+  }
+}

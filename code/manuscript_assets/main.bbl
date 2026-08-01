@@ -1,0 +1,1013 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{87}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Huynh}(2026{\natexlab{a}})}]{huynh2026series01}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Huynh}},\ }\href@noop {} {\bibinfo {title} {Matrix-based search regions for
+  quantum approximate optimization}} (\bibinfo {year} {2026}{\natexlab{a}}),\
+  \bibinfo {note} {manuscript in preparation}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huynh}(2026{\natexlab{b}})}]{huynh2026series02}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Huynh}},\ }\href@noop {} {\bibinfo {title} {Singular-value information for
+  efficient quantum approximate optimization}} (\bibinfo {year}
+  {2026}{\natexlab{b}}),\ \bibinfo {note} {manuscript in
+  preparation}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huynh}(2026{\natexlab{c}})}]{huynh2026series03}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Huynh}},\ }\href@noop {} {\bibinfo {title} {Matrix-free transfer of quantum
+  approximate optimization parameters across circuit depths}} (\bibinfo {year}
+  {2026}{\natexlab{c}}),\ \bibinfo {note} {manuscript in
+  preparation}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huynh}(2026{\natexlab{d}})}]{huynh2026series04}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Huynh}},\ }\href@noop {} {\bibinfo {title} {Low-rank matrix priors for
+  quantum approximate optimization parameters}} (\bibinfo {year}
+  {2026}{\natexlab{d}}),\ \bibinfo {note} {manuscript in
+  preparation}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huynh}(2026{\natexlab{e}})}]{huynh2026series05}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Huynh}},\ }\href@noop {} {\bibinfo {title} {Low-rank matrix learning of
+  quantum approximate optimization parameters on graphs}} (\bibinfo {year}
+  {2026}{\natexlab{e}}),\ \bibinfo {note} {manuscript in
+  preparation}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ipsen}(2009)}]{ipsen2009numerical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.~C.~F.}\
+  \bibnamefont {Ipsen}},\ }\href {https://doi.org/10.1137/1.9780898717686}
+  {\emph {\bibinfo {title} {Numerical Matrix Analysis: Linear Systems and Least
+  Squares}}}\ (\bibinfo  {publisher} {Society for Industrial and Applied
+  Mathematics},\ \bibinfo {address} {Philadelphia, PA},\ \bibinfo {year}
+  {2009})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Saibaba}\ \emph {et~al.}(2017)\citenamefont
+  {Saibaba}, \citenamefont {Alexanderian},\ and\ \citenamefont
+  {Ipsen}}]{saibaba2017randomized}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~K.}\ \bibnamefont
+  {Saibaba}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Alexanderian}},\ and\ \bibinfo {author} {\bibfnamefont {I.~C.~F.}\
+  \bibnamefont {Ipsen}},\ }\bibfield  {title} {\bibinfo {title} {Randomized
+  matrix-free trace and log-determinant estimators},\ }\href
+  {https://doi.org/10.1007/s00211-017-0880-z} {\bibfield  {journal} {\bibinfo
+  {journal} {Numerische Mathematik}\ }\textbf {\bibinfo {volume} {137}},\
+  \bibinfo {pages} {353} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Farhi}\ \emph {et~al.}(2014)\citenamefont {Farhi},
+  \citenamefont {Goldstone},\ and\ \citenamefont {Gutmann}}]{Farhi2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Farhi}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Goldstone}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Gutmann}},\
+  }\href@noop {} {\bibinfo {title} {A quantum approximate optimization
+  algorithm}} (\bibinfo {year} {2014}),\ \Eprint
+  {https://arxiv.org/abs/1411.4028} {arXiv:1411.4028 [quant-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hadfield}\ \emph {et~al.}(2019)\citenamefont
+  {Hadfield}, \citenamefont {Wang}, \citenamefont {O'Gorman}, \citenamefont
+  {Rieffel}, \citenamefont {Venturelli},\ and\ \citenamefont
+  {Biswas}}]{Hadfield2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Hadfield}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {O'Gorman}}, \bibinfo
+  {author} {\bibfnamefont {E.~G.}\ \bibnamefont {Rieffel}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Venturelli}},\ and\ \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Biswas}},\ }\bibfield  {title} {\bibinfo
+  {title} {From the quantum approximate optimization algorithm to a quantum
+  alternating operator ansatz},\ }\href {https://doi.org/10.3390/a12020034}
+  {\bibfield  {journal} {\bibinfo  {journal} {Algorithms}\ }\textbf {\bibinfo
+  {volume} {12}},\ \bibinfo {pages} {34} (\bibinfo {year} {2019})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2018)\citenamefont {Wang},
+  \citenamefont {Hadfield}, \citenamefont {Jiang},\ and\ \citenamefont
+  {Rieffel}}]{Wang2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Hadfield}},
+  \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Jiang}},\ and\ \bibinfo
+  {author} {\bibfnamefont {E.~G.}\ \bibnamefont {Rieffel}},\ }\bibfield
+  {title} {\bibinfo {title} {Quantum approximate optimization algorithm for
+  maxcut: A fermionic view},\ }\href
+  {https://doi.org/10.1103/PhysRevA.97.022304} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. A}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo
+  {pages} {022304} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Grasedyck}\ and\ \citenamefont
+  {Hackbusch}(2003)}]{GrasedyckHackbusch2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Grasedyck}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Hackbusch}},\ }\bibfield  {title} {\bibinfo {title} {Construction and
+  arithmetics of $\mathcal{H}$-matrices},\ }\href
+  {https://doi.org/10.1007/s00607-003-0019-1} {\bibfield  {journal} {\bibinfo
+  {journal} {Computing}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages}
+  {295} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bebendorf}(2008)}]{Bebendorf2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Bebendorf}},\ }\href {https://doi.org/10.1007/978-3-540-77147-0} {\emph
+  {\bibinfo {title} {Hierarchical Matrices: A Means to \linebreak Efficiently
+  Solve Elliptic Boundary Value Problems}}}\ (\bibinfo  {publisher}
+  {Springer},\ \bibinfo {address} {Berlin},\ \bibinfo {year}
+  {2008})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {B{\"o}rm}(2009)}]{Borm2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {B{\"o}rm}},\ }\bibfield  {title} {\bibinfo {title} {Construction of
+  data-sparse $\mathcal{H}^{2}$-matrices by hierarchical compression},\ }\href
+  {https://doi.org/10.1137/080720693} {\bibfield  {journal} {\bibinfo
+  {journal} {SIAM J. Sci. Comput.}\ }\textbf {\bibinfo {volume} {31}},\
+  \bibinfo {pages} {1820} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hackbusch}(2015)}]{Hackbusch2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Hackbusch}},\ }\href {https://doi.org/10.1007/978-3-662-47324-5} {\emph
+  {\bibinfo {title} {Hierarchical Matrices: Algorithms and Analysis}}}\
+  (\bibinfo  {publisher} {Springer},\ \bibinfo {address} {Berlin},\ \bibinfo
+  {year} {2015})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cooley}\ and\ \citenamefont
+  {Tukey}(1965)}]{CooleyTukey1965}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
+  {Cooley}}\ and\ \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
+  {Tukey}},\ }\bibfield  {title} {\bibinfo {title} {An algorithm for the
+  machine calculation of complex fourier series},\ }\href
+  {https://doi.org/10.1090/S0025-5718-1965-0178586-1} {\bibfield  {journal}
+  {\bibinfo  {journal} {Math. Comput.}\ }\textbf {\bibinfo {volume} {19}},\
+  \bibinfo {pages} {297} (\bibinfo {year} {1965})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {O'Neil}\ \emph {et~al.}(2010)\citenamefont {O'Neil},
+  \citenamefont {Woolfe},\ and\ \citenamefont {Rokhlin}}]{ONeil2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {O'Neil}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Woolfe}},\
+  and\ \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Rokhlin}},\
+  }\bibfield  {title} {\bibinfo {title} {An algorithm for the rapid evaluation
+  of special function transforms},\ }\href
+  {https://doi.org/10.1016/j.acha.2009.08.005} {\bibfield  {journal} {\bibinfo
+  {journal} {Appl. Comput. Harmon. Anal.}\ }\textbf {\bibinfo {volume} {28}},\
+  \bibinfo {pages} {203} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2015)\citenamefont {Li},
+  \citenamefont {Yang}, \citenamefont {Martin}, \citenamefont {Ho},\ and\
+  \citenamefont {Ying}}]{Li2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Yang}}, \bibinfo
+  {author} {\bibfnamefont {E.~R.}\ \bibnamefont {Martin}}, \bibinfo {author}
+  {\bibfnamefont {K.~L.}\ \bibnamefont {Ho}},\ and\ \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Ying}},\ }\bibfield  {title} {\bibinfo
+  {title} {Butterfly factorization},\ }\href
+  {https://doi.org/10.1137/15M1007173} {\bibfield  {journal} {\bibinfo
+  {journal} {Multiscale Model. Simul.}\ }\textbf {\bibinfo {volume} {13}},\
+  \bibinfo {pages} {714} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Frigo}\ and\ \citenamefont
+  {Johnson}(2005)}]{FrigoJohnson2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Frigo}}\ and\ \bibinfo {author} {\bibfnamefont {S.~G.}\ \bibnamefont
+  {Johnson}},\ }\bibfield  {title} {\bibinfo {title} {The design and
+  implementation of fftw3},\ }\href {https://doi.org/10.1109/JPROC.2004.840301}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proc. IEEE}\ }\textbf {\bibinfo
+  {volume} {93}},\ \bibinfo {pages} {216} (\bibinfo {year} {2005})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Karp}(1972)}]{Karp1972}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Karp}},\ }\bibfield  {title} {\bibinfo {title} {Reducibility among
+  combinatorial problems},\ }in\ \href
+  {https://doi.org/10.1007/978-1-4684-2001-2_9} {\emph {\bibinfo {booktitle}
+  {Complexity of Computer Computations}}}\ (\bibinfo  {publisher} {Plenum},\
+  \bibinfo {address} {New York},\ \bibinfo {year} {1972})\ pp.\ \bibinfo
+  {pages} {85--103}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Garey}\ \emph {et~al.}(1976)\citenamefont {Garey},
+  \citenamefont {Johnson},\ and\ \citenamefont {Stockmeyer}}]{Garey1976}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~R.}\ \bibnamefont
+  {Garey}}, \bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont {Johnson}},\
+  and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Stockmeyer}},\
+  }\bibfield  {title} {\bibinfo {title} {Some simplified {NP}-complete graph
+  problems},\ }\href {https://doi.org/10.1016/0304-3975(76)90059-1} {\bibfield
+  {journal} {\bibinfo  {journal} {Theor. Comput. Sci.}\ }\textbf {\bibinfo
+  {volume} {1}},\ \bibinfo {pages} {237} (\bibinfo {year} {1976})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Goemans}\ and\ \citenamefont
+  {Williamson}(1995)}]{Goemans1995}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~X.}\ \bibnamefont
+  {Goemans}}\ and\ \bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont
+  {Williamson}},\ }\bibfield  {title} {\bibinfo {title} {Improved approximation
+  algorithms for maximum cut and satisfiability problems using semidefinite
+  programming},\ }\href {https://doi.org/10.1145/227683.227684} {\bibfield
+  {journal} {\bibinfo  {journal} {J. ACM}\ }\textbf {\bibinfo {volume} {42}},\
+  \bibinfo {pages} {1115} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhou}\ \emph {et~al.}(2020)\citenamefont {Zhou},
+  \citenamefont {Wang}, \citenamefont {Choi}, \citenamefont {Pichler},\ and\
+  \citenamefont {Lukin}}]{Zhou2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Zhou}}, \bibinfo {author} {\bibfnamefont {S.-T.}\ \bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Choi}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Pichler}},\ and\ \bibinfo {author}
+  {\bibfnamefont {M.~D.}\ \bibnamefont {Lukin}},\ }\bibfield  {title} {\bibinfo
+  {title} {Quantum approximate optimization algorithm: Performance, mechanism,
+  and implementation on near-term devices},\ }\href
+  {https://doi.org/10.1103/PhysRevX.10.021067} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo
+  {pages} {021067} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peruzzo}\ \emph {et~al.}(2014)\citenamefont {Peruzzo}
+  \emph {et~al.}}]{Peruzzo2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Peruzzo}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {A
+  variational eigenvalue solver on a photonic quantum processor},\ }\href
+  {https://doi.org/10.1038/ncomms5213} {\bibfield  {journal} {\bibinfo
+  {journal} {Nat. Commun.}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages}
+  {4213} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {McClean}\ \emph {et~al.}(2016)\citenamefont
+  {McClean}, \citenamefont {Romero}, \citenamefont {Babbush},\ and\
+  \citenamefont {Aspuru-Guzik}}]{McClean2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {McClean}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Romero}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Babbush}},\ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Aspuru-Guzik}},\ }\bibfield
+  {title} {\bibinfo {title} {The theory of variational hybrid quantum-classical
+  algorithms},\ }\href {https://doi.org/10.1088/1367-2630/18/2/023023}
+  {\bibfield  {journal} {\bibinfo  {journal} {New J. Phys.}\ }\textbf {\bibinfo
+  {volume} {18}},\ \bibinfo {pages} {023023} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Preskill}(2018)}]{Preskill2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Preskill}},\ }\bibfield  {title} {\bibinfo {title} {Quantum computing in the
+  {NISQ} era and beyond},\ }\href {https://doi.org/10.22331/q-2018-08-06-79}
+  {\bibfield  {journal} {\bibinfo  {journal} {Quantum}\ }\textbf {\bibinfo
+  {volume} {2}},\ \bibinfo {pages} {79} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Cerezo}\ \emph
+  {et~al.}(2021{\natexlab{a}})\citenamefont {Cerezo}, \citenamefont
+  {Arrasmith}, \citenamefont {Babbush}, \citenamefont {Benjamin}, \citenamefont
+  {Endo}, \citenamefont {Fujii}, \citenamefont {McClean}, \citenamefont
+  {Mitarai}, \citenamefont {Yuan}, \citenamefont {Cincio},\ and\ \citenamefont
+  {Coles}}]{Cerezo2021Review}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Cerezo}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Arrasmith}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Babbush}}, \bibinfo
+  {author} {\bibfnamefont {S.~C.}\ \bibnamefont {Benjamin}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Endo}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Fujii}}, \bibinfo {author} {\bibfnamefont {J.~R.}\
+  \bibnamefont {McClean}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Mitarai}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Yuan}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Cincio}},\ and\ \bibinfo
+  {author} {\bibfnamefont {P.~J.}\ \bibnamefont {Coles}},\ }\bibfield  {title}
+  {\bibinfo {title} {Variational quantum algorithms},\ }\href
+  {https://doi.org/10.1038/s42254-021-00348-9} {\bibfield  {journal} {\bibinfo
+  {journal} {Nat. Rev. Phys.}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo
+  {pages} {625} (\bibinfo {year} {2021}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bharti}\ \emph {et~al.}(2022)\citenamefont {Bharti}
+  \emph {et~al.}}]{Bharti2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Bharti}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {Noisy
+  intermediate-scale quantum algorithms},\ }\href
+  {https://doi.org/10.1103/RevModPhys.94.015004} {\bibfield  {journal}
+  {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {94}},\
+  \bibinfo {pages} {015004} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Harrigan}\ \emph {et~al.}(2021)\citenamefont
+  {Harrigan} \emph {et~al.}}]{Harrigan2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont
+  {Harrigan}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {Quantum
+  approximate optimization of non-planar graph problems on a planar
+  superconducting processor},\ }\href
+  {https://doi.org/10.1038/s41567-020-01105-y} {\bibfield  {journal} {\bibinfo
+  {journal} {Nat. Phys.}\ }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages}
+  {332} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pagano}\ \emph {et~al.}(2020)\citenamefont {Pagano}
+  \emph {et~al.}}]{Pagano2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Pagano}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {Quantum
+  approximate optimization of the long-range ising model with a trapped-ion
+  quantum simulator},\ }\href {https://doi.org/10.1073/pnas.2006373117}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proc. Natl. Acad. Sci. USA}\
+  }\textbf {\bibinfo {volume} {117}},\ \bibinfo {pages} {25396} (\bibinfo
+  {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ebadi}\ \emph {et~al.}(2022)\citenamefont {Ebadi}
+  \emph {et~al.}}]{Ebadi2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ebadi}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {Quantum
+  optimization of maximum independent set using rydberg atom arrays},\ }\href
+  {https://doi.org/10.1126/science.abo6587} {\bibfield  {journal} {\bibinfo
+  {journal} {Science}\ }\textbf {\bibinfo {volume} {376}},\ \bibinfo {pages}
+  {1209} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schuld}\ \emph {et~al.}(2019)\citenamefont {Schuld},
+  \citenamefont {Bergholm}, \citenamefont {Gogolin}, \citenamefont {Izaac},\
+  and\ \citenamefont {Killoran}}]{Schuld2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Schuld}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Bergholm}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Gogolin}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Izaac}},\ and\ \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Killoran}},\ }\bibfield  {title} {\bibinfo
+  {title} {Evaluating analytic gradients on quantum hardware},\ }\href
+  {https://doi.org/10.1103/PhysRevA.99.032331} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. A}\ }\textbf {\bibinfo {volume} {99}},\ \bibinfo
+  {pages} {032331} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mitarai}\ \emph {et~al.}(2018)\citenamefont
+  {Mitarai}, \citenamefont {Negoro}, \citenamefont {Kitagawa},\ and\
+  \citenamefont {Fujii}}]{Mitarai2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Mitarai}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Negoro}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kitagawa}},\ and\
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Fujii}},\ }\bibfield
+  {title} {\bibinfo {title} {Quantum circuit learning},\ }\href
+  {https://doi.org/10.1103/PhysRevA.98.032309} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. A}\ }\textbf {\bibinfo {volume} {98}},\ \bibinfo
+  {pages} {032309} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stokes}\ \emph {et~al.}(2020)\citenamefont {Stokes},
+  \citenamefont {Izaac}, \citenamefont {Killoran},\ and\ \citenamefont
+  {Carleo}}]{Stokes2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Stokes}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Izaac}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Killoran}},\ and\
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Carleo}},\ }\bibfield
+  {title} {\bibinfo {title} {Quantum natural gradient},\ }\href
+  {https://doi.org/10.22331/q-2020-05-25-269} {\bibfield  {journal} {\bibinfo
+  {journal} {Quantum}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages}
+  {269} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nelder}\ and\ \citenamefont
+  {Mead}(1965)}]{NelderMead1965}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Nelder}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Mead}},\
+  }\bibfield  {title} {\bibinfo {title} {A simplex method for function
+  minimization},\ }\href {https://doi.org/10.1093/comjnl/7.4.308} {\bibfield
+  {journal} {\bibinfo  {journal} {Comput. J.}\ }\textbf {\bibinfo {volume}
+  {7}},\ \bibinfo {pages} {308} (\bibinfo {year} {1965})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kolda}\ \emph {et~al.}(2003)\citenamefont {Kolda},
+  \citenamefont {Lewis},\ and\ \citenamefont {Torczon}}]{Kolda2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~G.}\ \bibnamefont
+  {Kolda}}, \bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont {Lewis}},\
+  and\ \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Torczon}},\
+  }\bibfield  {title} {\bibinfo {title} {Optimization by direct search: New
+  perspectives on some classical and modern methods},\ }\href
+  {https://doi.org/10.1137/S003614450242889} {\bibfield  {journal} {\bibinfo
+  {journal} {SIAM Rev.}\ }\textbf {\bibinfo {volume} {45}},\ \bibinfo {pages}
+  {385} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nocedal}\ and\ \citenamefont
+  {Wright}(2006)}]{Nocedal2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Nocedal}}\ and\ \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Wright}},\ }\href {https://doi.org/10.1007/978-0-387-40065-5} {\emph
+  {\bibinfo {title} {Numerical Optimization}}},\ \bibinfo {edition} {2nd}\ ed.\
+  (\bibinfo  {publisher} {Springer},\ \bibinfo {year} {2006})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {McClean}\ \emph {et~al.}(2018)\citenamefont
+  {McClean}, \citenamefont {Boixo}, \citenamefont {Smelyanskiy}, \citenamefont
+  {Babbush},\ and\ \citenamefont {Neven}}]{McClean2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {McClean}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Boixo}},
+  \bibinfo {author} {\bibfnamefont {V.~N.}\ \bibnamefont {Smelyanskiy}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Babbush}},\ and\ \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Neven}},\ }\bibfield  {title}
+  {\bibinfo {title} {Barren plateaus in quantum neural network training
+  landscapes},\ }\href {https://doi.org/10.1038/s41467-018-07090-4} {\bibfield
+  {journal} {\bibinfo  {journal} {Nat. Commun.}\ }\textbf {\bibinfo {volume}
+  {9}},\ \bibinfo {pages} {4812} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Cerezo}\ \emph
+  {et~al.}(2021{\natexlab{b}})\citenamefont {Cerezo}, \citenamefont {Sone},
+  \citenamefont {Volkoff}, \citenamefont {Cincio},\ and\ \citenamefont
+  {Coles}}]{Cerezo2021Plateau}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Cerezo}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Sone}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Volkoff}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Cincio}},\ and\ \bibinfo {author}
+  {\bibfnamefont {P.~J.}\ \bibnamefont {Coles}},\ }\bibfield  {title} {\bibinfo
+  {title} {Cost function dependent barren plateaus in shallow parametrized
+  quantum circuits},\ }\href {https://doi.org/10.1038/s41467-021-21728-w}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nat. Commun.}\ }\textbf {\bibinfo
+  {volume} {12}},\ \bibinfo {pages} {1791} (\bibinfo {year}
+  {2021}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2021)\citenamefont {Wang},
+  \citenamefont {Fontana}, \citenamefont {Cerezo}, \citenamefont {Sharma},
+  \citenamefont {Sone}, \citenamefont {Cincio},\ and\ \citenamefont
+  {Coles}}]{Wang2021Noise}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Fontana}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Cerezo}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Sharma}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Sone}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Cincio}},\ and\ \bibinfo {author} {\bibfnamefont {P.~J.}\
+  \bibnamefont {Coles}},\ }\bibfield  {title} {\bibinfo {title} {Noise-induced
+  barren plateaus in variational quantum algorithms},\ }\href
+  {https://doi.org/10.1038/s41467-021-27045-6} {\bibfield  {journal} {\bibinfo
+  {journal} {Nat. Commun.}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo
+  {pages} {6961} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Arrasmith}\ \emph {et~al.}(2021)\citenamefont
+  {Arrasmith}, \citenamefont {Cerezo}, \citenamefont {Czarnik}, \citenamefont
+  {Cincio},\ and\ \citenamefont {Coles}}]{Arrasmith2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Arrasmith}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Cerezo}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Czarnik}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Cincio}},\ and\ \bibinfo {author}
+  {\bibfnamefont {P.~J.}\ \bibnamefont {Coles}},\ }\bibfield  {title} {\bibinfo
+  {title} {Effect of barren plateaus on gradient-free optimization},\ }\href
+  {https://doi.org/10.22331/q-2021-10-05-558} {\bibfield  {journal} {\bibinfo
+  {journal} {Quantum}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages}
+  {558} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Holmes}\ \emph {et~al.}(2022)\citenamefont {Holmes},
+  \citenamefont {Sharma}, \citenamefont {Cerezo},\ and\ \citenamefont
+  {Coles}}]{Holmes2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Holmes}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Sharma}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Cerezo}},\ and\ \bibinfo
+  {author} {\bibfnamefont {P.~J.}\ \bibnamefont {Coles}},\ }\bibfield  {title}
+  {\bibinfo {title} {Connecting ansatz expressibility to gradient magnitudes
+  and barren plateaus},\ }\href {https://doi.org/10.1103/PRXQuantum.3.010313}
+  {\bibfield  {journal} {\bibinfo  {journal} {PRX Quantum}\ }\textbf {\bibinfo
+  {volume} {3}},\ \bibinfo {pages} {010313} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Larocca}\ \emph {et~al.}(2022)\citenamefont
+  {Larocca}, \citenamefont {Czarnik}, \citenamefont {Sharma}, \citenamefont
+  {Muraleedharan}, \citenamefont {Coles},\ and\ \citenamefont
+  {Cerezo}}]{Larocca2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Larocca}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Czarnik}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Sharma}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Muraleedharan}}, \bibinfo {author}
+  {\bibfnamefont {P.~J.}\ \bibnamefont {Coles}},\ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Cerezo}},\ }\bibfield  {title} {\bibinfo
+  {title} {Diagnosing barren plateaus with tools from quantum optimal
+  control},\ }\href {https://doi.org/10.22331/q-2022-09-29-824} {\bibfield
+  {journal} {\bibinfo  {journal} {Quantum}\ }\textbf {\bibinfo {volume} {6}},\
+  \bibinfo {pages} {824} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Conn}\ \emph {et~al.}(2000)\citenamefont {Conn},
+  \citenamefont {Gould},\ and\ \citenamefont {Toint}}]{Conn2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {Conn}}, \bibinfo {author} {\bibfnamefont {N.~I.~M.}\ \bibnamefont {Gould}},\
+  and\ \bibinfo {author} {\bibfnamefont {P.~L.}\ \bibnamefont {Toint}},\ }\href
+  {https://doi.org/10.1137/1.9780898719857} {\emph {\bibinfo {title} {Trust
+  Region Methods}}}\ (\bibinfo  {publisher} {SIAM},\ \bibinfo {year}
+  {2000})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sorensen}(1982)}]{Sorensen1982}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {Sorensen}},\ }\bibfield  {title} {\bibinfo {title} {Newton's method with a
+  model trust region modification},\ }\href {https://doi.org/10.1137/0719026}
+  {\bibfield  {journal} {\bibinfo  {journal} {SIAM J. Numer. Anal.}\ }\textbf
+  {\bibinfo {volume} {19}},\ \bibinfo {pages} {409} (\bibinfo {year}
+  {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Conn}\ \emph {et~al.}(2009)\citenamefont {Conn},
+  \citenamefont {Scheinberg},\ and\ \citenamefont {Vicente}}]{Conn2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {Conn}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Scheinberg}},\
+  and\ \bibinfo {author} {\bibfnamefont {L.~N.}\ \bibnamefont {Vicente}},\
+  }\href {https://doi.org/10.1137/1.9780898718768} {\emph {\bibinfo {title}
+  {Introduction to Derivative-Free Optimization}}}\ (\bibinfo  {publisher}
+  {SIAM},\ \bibinfo {year} {2009})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lieb}\ and\ \citenamefont
+  {Robinson}(1972)}]{LiebRobinson1972}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~H.}\ \bibnamefont
+  {Lieb}}\ and\ \bibinfo {author} {\bibfnamefont {D.~W.}\ \bibnamefont
+  {Robinson}},\ }\bibfield  {title} {\bibinfo {title} {The finite group
+  velocity of quantum spin systems},\ }\href
+  {https://doi.org/10.1007/BF01645779} {\bibfield  {journal} {\bibinfo
+  {journal} {Commun. Math. Phys.}\ }\textbf {\bibinfo {volume} {28}},\ \bibinfo
+  {pages} {251} (\bibinfo {year} {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bravyi}\ \emph {et~al.}(2006)\citenamefont {Bravyi},
+  \citenamefont {Hastings},\ and\ \citenamefont {Verstraete}}]{Bravyi2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bravyi}}, \bibinfo {author} {\bibfnamefont {M.~B.}\ \bibnamefont
+  {Hastings}},\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Verstraete}},\ }\bibfield  {title} {\bibinfo {title} {Lieb--robinson bounds
+  and the generation of correlations and topological quantum order},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.97.050401} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {97}},\
+  \bibinfo {pages} {050401} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brandao}\ \emph {et~al.}(2018)\citenamefont
+  {Brandao}, \citenamefont {Broughton}, \citenamefont {Farhi}, \citenamefont
+  {Gutmann},\ and\ \citenamefont {Neven}}]{Brandao2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~G. S.~L.}\
+  \bibnamefont {Brandao}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Broughton}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Farhi}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Gutmann}},\ and\ \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Neven}},\ }\href@noop {} {\bibinfo
+  {title} {For fixed control parameters the quantum approximate optimization
+  algorithm's objective function value concentrates for typical instances}}
+  (\bibinfo {year} {2018}),\ \Eprint {https://arxiv.org/abs/1812.04170}
+  {arXiv:1812.04170} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Benjamini}\ and\ \citenamefont
+  {Schramm}(2001)}]{BenjaminiSchramm2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Benjamini}}\ and\ \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Schramm}},\ }\bibfield  {title} {\bibinfo {title} {Recurrence of
+  distributional limits of finite planar graphs},\ }\href
+  {https://doi.org/10.1214/EJP.v6-96} {\bibfield  {journal} {\bibinfo
+  {journal} {Electron. J. Probab.}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo
+  {pages} {1} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aldous}\ and\ \citenamefont
+  {Steele}(2004)}]{AldousSteele2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Aldous}}\ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Steele}},\ }\bibfield  {title} {\bibinfo {title} {The objective method:
+  Probabilistic combinatorial optimization and local weak convergence},\ }in\
+  \href {https://doi.org/10.1007/978-3-662-09444-0_1} {\emph {\bibinfo
+  {booktitle} {Probability on Discrete Structures}}}\ (\bibinfo  {publisher}
+  {Springer},\ \bibinfo {year} {2004})\ pp.\ \bibinfo {pages}
+  {1--72}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Farhi}\ and\ \citenamefont
+  {Harrow}(2016)}]{FarhiHarrow2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Farhi}}\ and\ \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont
+  {Harrow}},\ }\href@noop {} {\bibinfo {title} {Quantum supremacy through the
+  quantum approximate optimization algorithm}} (\bibinfo {year} {2016}),\
+  \Eprint {https://arxiv.org/abs/1602.07674} {arXiv:1602.07674} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hastings}(2019)}]{Hastings2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~B.}\ \bibnamefont
+  {Hastings}},\ }\href@noop {} {\bibinfo {title} {Classical and quantum bounded
+  depth approximation algorithms}} (\bibinfo {year} {2019}),\ \Eprint
+  {https://arxiv.org/abs/1905.07047} {arXiv:1905.07047} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bravyi}\ \emph {et~al.}(2020)\citenamefont {Bravyi},
+  \citenamefont {Kliesch}, \citenamefont {K{\"o}nig},\ and\ \citenamefont
+  {Tang}}]{Bravyi2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bravyi}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kliesch}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {K{\"o}nig}},\ and\
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Tang}},\ }\bibfield
+  {title} {\bibinfo {title} {Obstacles to variational quantum optimization from
+  symmetry protection},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.125.260505} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {125}},\
+  \bibinfo {pages} {260505} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Akshay}\ \emph {et~al.}(2021)\citenamefont {Akshay},
+  \citenamefont {Rabinovich}, \citenamefont {Campos},\ and\ \citenamefont
+  {Biamonte}}]{Akshay2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Akshay}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Rabinovich}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Campos}},\ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Biamonte}},\ }\bibfield  {title}
+  {\bibinfo {title} {Parameter concentrations in quantum approximate
+  optimization},\ }\href {https://doi.org/10.1103/PhysRevA.104.L010401}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. A}\ }\textbf {\bibinfo
+  {volume} {104}},\ \bibinfo {pages} {L010401} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boulebnane}\ and\ \citenamefont
+  {Montanaro}(2021)}]{Boulebnane2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Boulebnane}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Montanaro}},\ }\href@noop {} {\bibinfo {title} {Predicting parameters for
+  the quantum approximate optimization algorithm for maxcut from the
+  infinite-size limit}} (\bibinfo {year} {2021}),\ \Eprint
+  {https://arxiv.org/abs/2110.10685} {arXiv:2110.10685} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Basso}\ \emph {et~al.}(2022)\citenamefont {Basso},
+  \citenamefont {Farhi}, \citenamefont {Marwaha}, \citenamefont {Villalonga},\
+  and\ \citenamefont {Zhou}}]{Basso2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Basso}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Farhi}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Marwaha}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Villalonga}},\ and\ \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Zhou}},\ }\href@noop {} {\bibinfo
+  {title} {The quantum approximate optimization algorithm at high depth for
+  maxcut on large-girth regular graphs and the sherrington--kirkpatrick model}}
+  (\bibinfo {year} {2022}),\ \Eprint {https://arxiv.org/abs/2110.14206}
+  {arXiv:2110.14206} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wurtz}\ and\ \citenamefont
+  {Love}(2021)}]{WurtzLove2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wurtz}}\ and\ \bibinfo {author} {\bibfnamefont {P.~J.}\ \bibnamefont
+  {Love}},\ }\bibfield  {title} {\bibinfo {title} {Maxcut quantum approximate
+  optimization algorithm performance guarantees for $p>1$},\ }\href
+  {https://doi.org/10.1103/PhysRevA.103.042612} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. A}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo
+  {pages} {042612} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Galda}\ \emph
+  {et~al.}(2021{\natexlab{a}})\citenamefont {Galda}, \citenamefont {Liu},
+  \citenamefont {Lykov}, \citenamefont {Alexeev},\ and\ \citenamefont
+  {Safro}}]{Galda2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Galda}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Liu}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Lykov}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Alexeev}},\ and\ \bibinfo {author}
+  {\bibfnamefont {I.}~\bibnamefont {Safro}},\ }\bibfield  {title} {\bibinfo
+  {title} {Transferability of optimal {QAOA} parameters between random
+  graphs},\ }in\ \href {https://doi.org/10.1109/QCE52317.2021.00034} {\emph
+  {\bibinfo {booktitle} {2021 IEEE International Conference on Quantum
+  Computing and Engineering (QCE)}}}\ (\bibinfo {year} {2021})\ pp.\ \bibinfo
+  {pages} {171--180}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Galda}\ \emph
+  {et~al.}(2021{\natexlab{b}})\citenamefont {Galda}, \citenamefont {Liu},
+  \citenamefont {Lykov}, \citenamefont {Alexeev},\ and\ \citenamefont
+  {Safro}}]{Galda2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Galda}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Liu}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Lykov}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Alexeev}},\ and\ \bibinfo {author}
+  {\bibfnamefont {I.}~\bibnamefont {Safro}},\ }\bibfield  {title} {\bibinfo
+  {title} {Transferability of optimal qaoa parameters between random graphs},\
+  }in\ \href {https://doi.org/10.1109/QCE52317.2021.00034} {\emph {\bibinfo
+  {booktitle} {2021 IEEE International Conference on Quantum Computing and
+  Engineering (QCE)}}}\ (\bibinfo {year} {2021})\ pp.\ \bibinfo {pages}
+  {171--180}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Falla}\ \emph {et~al.}(2024)\citenamefont {Falla},
+  \citenamefont {Langfitt}, \citenamefont {Alexeev},\ and\ \citenamefont
+  {Safro}}]{Falla2024}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Falla}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Langfitt}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Alexeev}},\ and\ \bibinfo
+  {author} {\bibfnamefont {I.}~\bibnamefont {Safro}},\ }\bibfield  {title}
+  {\bibinfo {title} {Graph representation learning for parameter
+  transferability in quantum approximate optimization algorithm},\ }\href
+  {https://doi.org/10.1007/s42484-024-00178-9} {\bibfield  {journal} {\bibinfo
+  {journal} {Quantum Mach. Intell.}\ }\textbf {\bibinfo {volume} {6}},\
+  \bibinfo {pages} {46} (\bibinfo {year} {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shaydulin}\ \emph {et~al.}(2023)\citenamefont
+  {Shaydulin}, \citenamefont {Lotshaw}, \citenamefont {Larson}, \citenamefont
+  {Ostrowski},\ and\ \citenamefont {Humble}}]{Shaydulin2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Shaydulin}}, \bibinfo {author} {\bibfnamefont {P.~C.}\ \bibnamefont
+  {Lotshaw}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Larson}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Ostrowski}},\ and\
+  \bibinfo {author} {\bibfnamefont {T.~S.}\ \bibnamefont {Humble}},\ }\bibfield
+   {title} {\bibinfo {title} {Parameter transfer for quantum approximate
+  optimization of weighted {MaxCut}},\ }\href {https://doi.org/10.1145/3584706}
+  {\bibfield  {journal} {\bibinfo  {journal} {ACM Trans. Quantum Comput.}\
+  }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pelofske}\ \emph {et~al.}(2026)\citenamefont
+  {Pelofske}, \citenamefont {Rams}, \citenamefont {B{\"a}rtschi}, \citenamefont
+  {Czarnik}, \citenamefont {Braccia}, \citenamefont {Cincio},\ and\
+  \citenamefont {Eidenbenz}}]{Pelofske2026}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Pelofske}}, \bibinfo {author} {\bibfnamefont {M.~M.}\ \bibnamefont {Rams}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {B{\"a}rtschi}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Czarnik}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Braccia}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Cincio}},\ and\ \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Eidenbenz}},\ }\bibfield  {title} {\bibinfo {title}
+  {Evaluating the limits of quantum approximate optimization algorithm
+  parameter transfer at high rounds on sparse ising models with geometrically
+  local cubic terms},\ }\href {https://doi.org/10.1103/p2lg-z4kn} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Research}\ }\textbf {\bibinfo
+  {volume} {8}},\ \bibinfo {pages} {023023} (\bibinfo {year}
+  {2026})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pan}\ and\ \citenamefont {Yang}(2010)}]{PanYang2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Pan}}\ and\ \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Yang}},\
+  }\bibfield  {title} {\bibinfo {title} {A survey on transfer learning},\
+  }\href {https://doi.org/10.1109/TKDE.2009.191} {\bibfield  {journal}
+  {\bibinfo  {journal} {IEEE Trans. Knowl. Data Eng.}\ }\textbf {\bibinfo
+  {volume} {22}},\ \bibinfo {pages} {1345} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yosinski}\ \emph {et~al.}(2014)\citenamefont
+  {Yosinski}, \citenamefont {Clune}, \citenamefont {Bengio},\ and\
+  \citenamefont {Lipson}}]{Yosinski2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Yosinski}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Clune}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Bengio}},\ and\ \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Lipson}},\ }\bibfield  {title}
+  {\bibinfo {title} {How transferable are features in deep neural networks?},\
+  }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Advances in Neural
+  Information Processing Systems}}},\ Vol.~\bibinfo {volume} {27}\ (\bibinfo
+  {year} {2014})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {B{\"o}rm}(2010)}]{Borm2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {B{\"o}rm}},\ }\href {https://doi.org/10.4171/091} {\emph {\bibinfo {title}
+  {Efficient Numerical Methods for Non-local Operators:
+  $\mathcal{H}^{2}$-Matrix Compression, Algorithms and Analysis}}}\ (\bibinfo
+  {publisher} {European Mathematical Society},\ \bibinfo {address}
+  {Z{\"u}rich},\ \bibinfo {year} {2010})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bebendorf}\ and\ \citenamefont
+  {Rjasanow}(2003)}]{BebendorfRjasanow2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Bebendorf}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Rjasanow}},\ }\bibfield  {title} {\bibinfo {title} {Adaptive low-rank
+  approximation of collocation matrices},\ }\href
+  {https://doi.org/10.1007/s00607-002-1469-6} {\bibfield  {journal} {\bibinfo
+  {journal} {Computing}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages}
+  {1} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Halko}\ \emph {et~al.}(2011)\citenamefont {Halko},
+  \citenamefont {Martinsson},\ and\ \citenamefont {Tropp}}]{Halko2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Halko}}, \bibinfo {author} {\bibfnamefont {P.-G.}\ \bibnamefont
+  {Martinsson}},\ and\ \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Tropp}},\ }\bibfield  {title} {\bibinfo {title} {Finding structure with
+  randomness: Probabilistic algorithms for constructing approximate matrix
+  decompositions},\ }\href {https://doi.org/10.1137/090771806} {\bibfield
+  {journal} {\bibinfo  {journal} {SIAM Rev.}\ }\textbf {\bibinfo {volume}
+  {53}},\ \bibinfo {pages} {217} (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Martinsson}\ and\ \citenamefont
+  {Tropp}(2020)}]{MartinssonTropp2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.-G.}\ \bibnamefont
+  {Martinsson}}\ and\ \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Tropp}},\ }\bibfield  {title} {\bibinfo {title} {Randomized numerical linear
+  algebra: Foundations and algorithms},\ }\href
+  {https://doi.org/10.1017/S0962492920000021} {\bibfield  {journal} {\bibinfo
+  {journal} {Acta Numer.}\ }\textbf {\bibinfo {volume} {29}},\ \bibinfo {pages}
+  {403} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gorman}\ \emph {et~al.}(2019)\citenamefont {Gorman},
+  \citenamefont {Ch\'{a}vez}, \citenamefont {Ghysels}, \citenamefont {Mary},
+  \citenamefont {Rouet},\ and\ \citenamefont {Li}}]{Gorman2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Gorman}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Ch\'{a}vez}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Ghysels}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Mary}}, \bibinfo {author}
+  {\bibfnamefont {F.-H.}\ \bibnamefont {Rouet}},\ and\ \bibinfo {author}
+  {\bibfnamefont {X.~S.}\ \bibnamefont {Li}},\ }\bibfield  {title} {\bibinfo
+  {title} {Robust and accurate stopping criteria for adaptive randomized
+  sampling in matrix-free hierarchically semiseparable construction},\ }\href
+  {https://doi.org/10.1137/18M1194961} {\bibfield  {journal} {\bibinfo
+  {journal} {SIAM J. Sci. Comput.}\ }\textbf {\bibinfo {volume} {41}},\
+  \bibinfo {pages} {S61} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boukaram}\ \emph {et~al.}(2019)\citenamefont
+  {Boukaram}, \citenamefont {Turkiyyah},\ and\ \citenamefont
+  {Keyes}}]{Boukaram2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Boukaram}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Turkiyyah}},\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Keyes}},\ }\bibfield  {title} {\bibinfo {title} {Randomized {GPU} algorithms
+  for the construction of hierarchical matrices from matrix-vector
+  operations},\ }\href {https://doi.org/10.1137/18M1210101} {\bibfield
+  {journal} {\bibinfo  {journal} {SIAM J. Sci. Comput.}\ }\textbf {\bibinfo
+  {volume} {41}},\ \bibinfo {pages} {C339} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chen}\ \emph {et~al.}(2025)\citenamefont {Chen},
+  \citenamefont {Duman~Keles}, \citenamefont {Halikias}, \citenamefont {Musco},
+  \citenamefont {Musco},\ and\ \citenamefont {Persson}}]{Chen2025HODLR}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Chen}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Duman~Keles}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Halikias}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Musco}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Musco}},\ and\ \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Persson}},\ }\bibfield  {title} {\bibinfo
+  {title} {Near-optimal hierarchical matrix approximation from matrix-vector
+  products},\ }in\ \href {https://doi.org/10.1137/1.9781611978322.87} {\emph
+  {\bibinfo {booktitle} {Proceedings of the 2025 Annual ACM-SIAM Symposium on
+  Discrete Algorithms}}}\ (\bibinfo  {publisher} {SIAM},\ \bibinfo {year}
+  {2025})\ pp.\ \bibinfo {pages} {2656--2692}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Higham}(2002)}]{Higham2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~J.}\ \bibnamefont
+  {Higham}},\ }\href {https://doi.org/10.1137/1.9780898718027} {\emph {\bibinfo
+  {title} {Accuracy and Stability of Numerical Algorithms}}},\ \bibinfo
+  {edition} {2nd}\ ed.\ (\bibinfo  {publisher} {SIAM},\ \bibinfo {address}
+  {Philadelphia},\ \bibinfo {year} {2002})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Singh}\ \emph {et~al.}(2026)\citenamefont {Singh},
+  \citenamefont {Barros},\ and\ \citenamefont {Li}}]{Singh2026Lanczos}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Singh}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Barros}},\ and\
+  \bibinfo {author} {\bibfnamefont {X.~S.}\ \bibnamefont {Li}},\ }\href
+  {https://doi.org/10.48550/arXiv.2605.12801} {\bibinfo {title} {Fast and
+  stable gradient approximation for bilinear forms of hermitian matrix
+  functions}} (\bibinfo {year} {2026}),\ \Eprint
+  {https://arxiv.org/abs/2605.12801} {arXiv:2605.12801 [math.NA]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Rodriguez}\ \emph {et~al.}(2026)\citenamefont
+  {Rodriguez}, \citenamefont {Smith}, \citenamefont {Matin}, \citenamefont
+  {Lubbers}, \citenamefont {Barros},\ and\ \citenamefont
+  {Mendoza-Cortes}}]{Rodriguez2026PHL}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Rodriguez}}, \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont
+  {Smith}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Matin}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Lubbers}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Barros}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.~L.}\ \bibnamefont {Mendoza-Cortes}},\ }\href
+  {https://doi.org/10.48550/arXiv.2603.04523} {\bibinfo {title} {Projected
+  hessian learning: Fast curvature supervision for accurate machine-learning
+  interatomic potentials}} (\bibinfo {year} {2026}),\ \Eprint
+  {https://arxiv.org/abs/2603.04523} {arXiv:2603.04523 [physics.chem-ph]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Eckart}\ and\ \citenamefont
+  {Young}(1936)}]{EckartYoung1936}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Eckart}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Young}},\
+  }\bibfield  {title} {\bibinfo {title} {The approximation of one matrix by
+  another of lower rank},\ }\href {https://doi.org/10.1007/BF02288367}
+  {\bibfield  {journal} {\bibinfo  {journal} {Psychometrika}\ }\textbf
+  {\bibinfo {volume} {1}},\ \bibinfo {pages} {211} (\bibinfo {year}
+  {1936})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chaturantabut}\ and\ \citenamefont
+  {Sorensen}(2010)}]{ChaturantabutSorensen2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Chaturantabut}}\ and\ \bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {Sorensen}},\ }\bibfield  {title} {\bibinfo {title} {Nonlinear model
+  reduction via discrete empirical interpolation},\ }\href
+  {https://doi.org/10.1137/090766498} {\bibfield  {journal} {\bibinfo
+  {journal} {SIAM Journal on Scientific Computing}\ }\textbf {\bibinfo {volume}
+  {32}},\ \bibinfo {pages} {2737} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Krause}\ \emph {et~al.}(2008)\citenamefont {Krause},
+  \citenamefont {Singh},\ and\ \citenamefont
+  {Guestrin}}]{KrauseSinghGuestrin2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Krause}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Singh}},\ and\
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Guestrin}},\ }\bibfield
+  {title} {\bibinfo {title} {Near-optimal sensor placements in gaussian
+  processes: Theory, efficient algorithms and empirical studies},\ }\href
+  {https://jmlr.org/papers/v9/krause08a.html} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Machine Learning Research}\ }\textbf {\bibinfo {volume}
+  {9}},\ \bibinfo {pages} {235} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nemhauser}\ \emph {et~al.}(1978)\citenamefont
+  {Nemhauser}, \citenamefont {Wolsey},\ and\ \citenamefont
+  {Fisher}}]{NemhauserWolseyFisher1978}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont
+  {Nemhauser}}, \bibinfo {author} {\bibfnamefont {L.~A.}\ \bibnamefont
+  {Wolsey}},\ and\ \bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont
+  {Fisher}},\ }\bibfield  {title} {\bibinfo {title} {An analysis of
+  approximations for maximizing submodular set functions---i},\ }\href
+  {https://doi.org/10.1007/BF01588971} {\bibfield  {journal} {\bibinfo
+  {journal} {Mathematical Programming}\ }\textbf {\bibinfo {volume} {14}},\
+  \bibinfo {pages} {265} (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Erd{\H{o}}s}\ and\ \citenamefont
+  {R{\'e}nyi}(1959)}]{ErdosRenyi1959}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Erd{\H{o}}s}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {R{\'e}nyi}},\ }\bibfield  {title} {\bibinfo {title} {On random graphs i},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Publ. Math.
+  Debrecen}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {290}
+  (\bibinfo {year} {1959})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Watts}\ and\ \citenamefont
+  {Strogatz}(1998)}]{WattsStrogatz1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Watts}}\ and\ \bibinfo {author} {\bibfnamefont {S.~H.}\ \bibnamefont
+  {Strogatz}},\ }\bibfield  {title} {\bibinfo {title} {Collective dynamics of
+  small-world networks},\ }\href {https://doi.org/10.1038/30918} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {393}},\
+  \bibinfo {pages} {440} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barab{\'a}si}\ and\ \citenamefont
+  {Albert}(1999)}]{BarabasiAlbert1999}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.-L.}\ \bibnamefont
+  {Barab{\'a}si}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Albert}},\ }\bibfield  {title} {\bibinfo {title} {Emergence of scaling in
+  random networks},\ }\href {https://doi.org/10.1126/science.286.5439.509}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {286}},\ \bibinfo {pages} {509} (\bibinfo {year}
+  {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ye}(2003)}]{Gset}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Ye}},\ }\href@noop {} {\bibinfo {title} {Gset max-cut benchmark}},\ \bibinfo
+  {howpublished} {\url{https://web.stanford.edu/~yyye/yyye/Gset/}} (\bibinfo
+  {year} {2003}),\ \bibinfo {note} {accessed July 24, 2026}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hoeffding}(1963)}]{Hoeffding1963}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Hoeffding}},\ }\bibfield  {title} {\bibinfo {title} {Probability
+  inequalities for sums of bounded random variables},\ }\href
+  {https://doi.org/10.1080/01621459.1963.10500830} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Am. Stat. Assoc.}\ }\textbf {\bibinfo {volume}
+  {58}},\ \bibinfo {pages} {13} (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Efron}\ and\ \citenamefont
+  {Tibshirani}(1993)}]{Efron1993}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Efron}}\ and\ \bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont
+  {Tibshirani}},\ }\href {https://doi.org/10.1201/9780429246593} {\emph
+  {\bibinfo {title} {An Introduction to the Bootstrap}}}\ (\bibinfo
+  {publisher} {Chapman and Hall/CRC},\ \bibinfo {year} {1993})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Sandve}\ \emph {et~al.}(2013)\citenamefont {Sandve},
+  \citenamefont {Nekrutenko}, \citenamefont {Taylor},\ and\ \citenamefont
+  {Hovig}}]{Sandve2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~K.}\ \bibnamefont
+  {Sandve}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Nekrutenko}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Taylor}},\ and\ \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Hovig}},\ }\bibfield  {title}
+  {\bibinfo {title} {Ten simple rules for reproducible computational
+  research},\ }\href {https://doi.org/10.1371/journal.pcbi.1003285} {\bibfield
+  {journal} {\bibinfo  {journal} {PLoS Comput. Biol.}\ }\textbf {\bibinfo
+  {volume} {9}},\ \bibinfo {pages} {e1003285} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wilson}\ \emph {et~al.}(2017)\citenamefont {Wilson}
+  \emph {et~al.}}]{Wilson2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Wilson}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {Good enough
+  practices in scientific computing},\ }\href
+  {https://doi.org/10.1371/journal.pcbi.1005510} {\bibfield  {journal}
+  {\bibinfo  {journal} {PLoS Comput. Biol.}\ }\textbf {\bibinfo {volume}
+  {13}},\ \bibinfo {pages} {e1005510} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Pineau}\ \emph {et~al.}(2021)\citenamefont {Pineau},
+  \citenamefont {Vincent-Lamarre}, \citenamefont {Sinha}, \citenamefont
+  {Larivi{\`e}re}, \citenamefont {Beygelzimer}, \citenamefont {d'Alch{\'e}
+  Buc}, \citenamefont {Fox},\ and\ \citenamefont {Larochelle}}]{Pineau2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Pineau}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Vincent-Lamarre}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Sinha}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Larivi{\`e}re}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Beygelzimer}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {d'Alch{\'e} Buc}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Fox}},\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Larochelle}},\ }\bibfield  {title} {\bibinfo {title} {Improving
+  reproducibility in machine learning research: a report from the neurips 2019
+  reproducibility program},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Mach. Learn. Res.}\ }\textbf {\bibinfo {volume} {22}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\end{thebibliography}%

@@ -1,0 +1,449 @@
+{
+  "butterfly": {
+    "counted_work": 139468800,
+    "dense_fourier_work": 14281605120,
+    "max_abs_error": 0.002459514087,
+    "relative_error": 0.000911131698,
+    "retained_coefficients": 881064,
+    "storage_fraction": 0.063172838656,
+    "total_coefficients": 13946880
+  },
+  "dataset": {
+    "development_graphs": 120,
+    "gset_graphs": [
+      {
+        "edges": 19176,
+        "name": "Gset-G1",
+        "sha256": "73bf704d8ffc55ba42260ab4cb659e3dcb6e729be70404d2cf476ba4e46d1665",
+        "vertices": 800
+      },
+      {
+        "edges": 19176,
+        "name": "Gset-G6",
+        "sha256": "e3dd8b29205280f1ad5806849321cdff6f11324c75cb95647d5783f3e47a1103",
+        "vertices": 800
+      },
+      {
+        "edges": 1600,
+        "name": "Gset-G11",
+        "sha256": "c2a760d2926db4fefd23b25c098dcd6311f711b355dbd1cc689fa25660c73174",
+        "vertices": 800
+      },
+      {
+        "edges": 4694,
+        "name": "Gset-G14",
+        "sha256": "dc769b978a40d458f693d5bd2cf8b8cceabd430b8e976204746696179c3d5945",
+        "vertices": 800
+      },
+      {
+        "edges": 4694,
+        "name": "Gset-G18",
+        "sha256": "6185af31fae0f7d59e232dad91178753574b7caa111dd6e6bf52f11c80e928d8",
+        "vertices": 800
+      },
+      {
+        "edges": 19990,
+        "name": "Gset-G22",
+        "sha256": "9baeee06eb147b1c9ca42b43be86592d4e6fc60784a85af9be5b63d1362ef28e",
+        "vertices": 2000
+      },
+      {
+        "edges": 4000,
+        "name": "Gset-G32",
+        "sha256": "9760fce6b601832db1b1173c1a09c8556d64bfb27ba603ef52ca24ee6c8527cc",
+        "vertices": 2000
+      },
+      {
+        "edges": 9990,
+        "name": "Gset-G43",
+        "sha256": "9af5445b4b066cbf1eabe218d4e0d907cb6f211651cae557c761ec344dc37be8",
+        "vertices": 1000
+      }
+    ],
+    "gset_sha256": {
+      "G1": "73bf704d8ffc55ba42260ab4cb659e3dcb6e729be70404d2cf476ba4e46d1665",
+      "G11": "c2a760d2926db4fefd23b25c098dcd6311f711b355dbd1cc689fa25660c73174",
+      "G14": "dc769b978a40d458f693d5bd2cf8b8cceabd430b8e976204746696179c3d5945",
+      "G18": "6185af31fae0f7d59e232dad91178753574b7caa111dd6e6bf52f11c80e928d8",
+      "G22": "9baeee06eb147b1c9ca42b43be86592d4e6fc60784a85af9be5b63d1362ef28e",
+      "G32": "9760fce6b601832db1b1173c1a09c8556d64bfb27ba603ef52ca24ee6c8527cc",
+      "G43": "9af5445b4b066cbf1eabe218d4e0d907cb6f211651cae557c761ec344dc37be8",
+      "G6": "e3dd8b29205280f1ad5806849321cdff6f11324c75cb95647d5783f3e47a1103"
+    },
+    "maximum_edges": 32768,
+    "maximum_vertices": 8192,
+    "minimum_vertices": 64,
+    "public_graphs": 8,
+    "synthetic_families": 5,
+    "synthetic_graphs": 160,
+    "test_graphs": 48
+  },
+  "held_out": {
+    "certificate_limit": 0.040374640319,
+    "certificate_violation": 0.0,
+    "margin_preserved_fraction": 0.0,
+    "max_abs_error": 0.02018732016,
+    "max_grid_regret": 0.001757000811,
+    "mean_grid_regret": 9.0169856e-05,
+    "relative_frobenius_error": 0.003222999005,
+    "storage_fraction": 0.131022135417
+  },
+  "hierarchy": {
+    "application_relative_error_against_butterfly_operator": 0.004216814221,
+    "certificate_frobenius": 0.003076264035,
+    "compressed_blocks": 16,
+    "dense_leaf_entries": 0,
+    "dense_matmat_work": 1376256,
+    "dense_to_exact_factor_work_ratio": 0.012292983927,
+    "dense_to_hierarchical_work_ratio": 13.744966442953,
+    "exact_causal_factor_matmat_work": 111954592,
+    "hierarchical_matmat_work": 100128,
+    "max_abs_error": 0.029672475683,
+    "rank_max": 3,
+    "rank_mean": 2.625,
+    "rank_median": 3.0,
+    "rank_min": 1,
+    "ranks": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      3,
+      2,
+      3,
+      1,
+      3,
+      2
+    ],
+    "relative_frobenius_error": 0.003107095414,
+    "storage_fraction": 0.07275390625
+  },
+  "matrix_free_recovery": {
+    "angle_settings": 1024,
+    "audit_probes": 64,
+    "baseline_warning": "A^T A is dominated when rows << columns; row-Gram and thin-SVD baselines are required for performance claims",
+    "basis_orthogonality_error": 0.0,
+    "basis_rank": 12,
+    "column_gram_formation_work": 125829120,
+    "column_gram_scalars": 1048576,
+    "dense_training_operator_scalars": 122880,
+    "mean_landscape_baseline_max_regret": 0.029954966995,
+    "mean_landscape_baseline_mean_regret": 0.017915392782,
+    "operator_work": 1749748,
+    "oversampling": 4,
+    "peak_working_scalars": 34944,
+    "per_graph_at_audit_probes": {
+      "Gset-G1": {
+        "edges": 19176,
+        "exact_optimizer_recovered": 0,
+        "grid_regret": 5.0758042e-05,
+        "relative_error": 0.020118641808,
+        "vertices": 800
+      },
+      "Gset-G11": {
+        "edges": 1600,
+        "exact_optimizer_recovered": 1,
+        "grid_regret": 0.0,
+        "relative_error": 0.013919694012,
+        "vertices": 800
+      },
+      "Gset-G14": {
+        "edges": 4694,
+        "exact_optimizer_recovered": 1,
+        "grid_regret": 0.0,
+        "relative_error": 0.007023128466,
+        "vertices": 800
+      },
+      "Gset-G18": {
+        "edges": 4694,
+        "exact_optimizer_recovered": 1,
+        "grid_regret": 0.0,
+        "relative_error": 0.007023128466,
+        "vertices": 800
+      },
+      "Gset-G22": {
+        "edges": 19990,
+        "exact_optimizer_recovered": 1,
+        "grid_regret": 0.0,
+        "relative_error": 0.008340729089,
+        "vertices": 2000
+      },
+      "Gset-G32": {
+        "edges": 4000,
+        "exact_optimizer_recovered": 1,
+        "grid_regret": 0.0,
+        "relative_error": 0.013919694012,
+        "vertices": 2000
+      },
+      "Gset-G43": {
+        "edges": 9990,
+        "exact_optimizer_recovered": 1,
+        "grid_regret": 0.0,
+        "relative_error": 0.008065749127,
+        "vertices": 1000
+      },
+      "Gset-G6": {
+        "edges": 19176,
+        "exact_optimizer_recovered": 0,
+        "grid_regret": 5.0758042e-05,
+        "relative_error": 0.020118641808,
+        "vertices": 800
+      }
+    },
+    "power_iterations": 4,
+    "probe_counts": [
+      {
+        "exact_optimizer_count": 2,
+        "max_grid_regret": 0.034749178311,
+        "mean_grid_regret": 0.013330770673,
+        "mean_relative_error": 0.160787273938,
+        "median_relative_error": 0.160005547742,
+        "probes": 16
+      },
+      {
+        "exact_optimizer_count": 6,
+        "max_grid_regret": 0.034726991377,
+        "mean_grid_regret": 0.008681747844,
+        "mean_relative_error": 0.022910655542,
+        "median_relative_error": 0.017527718748,
+        "probes": 32
+      },
+      {
+        "exact_optimizer_count": 6,
+        "max_grid_regret": 5.0758042e-05,
+        "mean_grid_regret": 1.268951e-05,
+        "mean_relative_error": 0.012316175848,
+        "median_relative_error": 0.01113021155,
+        "probes": 64
+      },
+      {
+        "exact_optimizer_count": 6,
+        "max_grid_regret": 0.000144956145,
+        "mean_grid_regret": 3.6239036e-05,
+        "mean_relative_error": 0.008598079405,
+        "median_relative_error": 0.00787056151,
+        "probes": 128
+      }
+    ],
+    "probe_seed": 260724,
+    "ridge": 1e-06,
+    "row_gram_leading_work": 16220160,
+    "row_gram_scalars": 14400,
+    "row_gram_to_action_product_ratio": 9.269997736817,
+    "stored_training_operator_scalars": 10868,
+    "training_rows": 120
+  },
+  "operator": {
+    "angle_grid_side": 32,
+    "angle_settings": 1024,
+    "causal_types": 13620,
+    "dense_entries": 172032,
+    "histogram_nonzeros": 47444,
+    "matrix_columns": 1024,
+    "matrix_rows": 168
+  },
+  "package": "hqml-hierarchical-gctr",
+  "profile": "paper",
+  "public_gset": {
+    "graphs": [
+      {
+        "edges": 19176,
+        "grid_regret": 5.0758042e-05,
+        "name": "Gset-G1",
+        "selected_beta": 0.343611696486,
+        "selected_gamma": 0.196349540849,
+        "sha256": "73bf704d8ffc55ba42260ab4cb659e3dcb6e729be70404d2cf476ba4e46d1665",
+        "vertices": 800
+      },
+      {
+        "edges": 19176,
+        "grid_regret": 5.0758042e-05,
+        "name": "Gset-G6",
+        "selected_beta": 0.343611696486,
+        "selected_gamma": 0.196349540849,
+        "sha256": "e3dd8b29205280f1ad5806849321cdff6f11324c75cb95647d5783f3e47a1103",
+        "vertices": 800
+      },
+      {
+        "edges": 1600,
+        "grid_regret": 0.0,
+        "name": "Gset-G11",
+        "selected_beta": 0.392699081699,
+        "selected_gamma": 0.490873852123,
+        "sha256": "c2a760d2926db4fefd23b25c098dcd6311f711b355dbd1cc689fa25660c73174",
+        "vertices": 800
+      },
+      {
+        "edges": 4694,
+        "grid_regret": 0.001757000811,
+        "name": "Gset-G14",
+        "selected_beta": 0.392699081699,
+        "selected_gamma": 0.294524311274,
+        "sha256": "dc769b978a40d458f693d5bd2cf8b8cceabd430b8e976204746696179c3d5945",
+        "vertices": 800
+      },
+      {
+        "edges": 4694,
+        "grid_regret": 0.001757000811,
+        "name": "Gset-G18",
+        "selected_beta": 0.392699081699,
+        "selected_gamma": 0.294524311274,
+        "sha256": "6185af31fae0f7d59e232dad91178753574b7caa111dd6e6bf52f11c80e928d8",
+        "vertices": 800
+      },
+      {
+        "edges": 19990,
+        "grid_regret": 0.0,
+        "name": "Gset-G22",
+        "selected_beta": 0.392699081699,
+        "selected_gamma": 0.196349540849,
+        "sha256": "9baeee06eb147b1c9ca42b43be86592d4e6fc60784a85af9be5b63d1362ef28e",
+        "vertices": 2000
+      },
+      {
+        "edges": 4000,
+        "grid_regret": 0.0,
+        "name": "Gset-G32",
+        "selected_beta": 0.392699081699,
+        "selected_gamma": 0.490873852123,
+        "sha256": "9760fce6b601832db1b1173c1a09c8556d64bfb27ba603ef52ca24ee6c8527cc",
+        "vertices": 2000
+      },
+      {
+        "edges": 9990,
+        "grid_regret": 0.0,
+        "name": "Gset-G43",
+        "selected_beta": 0.392699081699,
+        "selected_gamma": 0.196349540849,
+        "sha256": "9af5445b4b066cbf1eabe218d4e0d907cb6f211651cae557c761ec344dc37be8",
+        "vertices": 1000
+      }
+    ],
+    "max_grid_regret": 0.001757000811,
+    "mean_grid_regret": 0.000451939713
+  },
+  "scaling": [
+    {
+      "graphs": 20,
+      "max_degree": 31,
+      "mean_causal_types": 69.35,
+      "mean_edges": 204.0,
+      "vertices": 64
+    },
+    {
+      "graphs": 20,
+      "max_degree": 37,
+      "mean_causal_types": 92.3,
+      "mean_edges": 415.2,
+      "vertices": 128
+    },
+    {
+      "graphs": 20,
+      "max_degree": 52,
+      "mean_causal_types": 124.7,
+      "mean_edges": 818.4,
+      "vertices": 256
+    },
+    {
+      "graphs": 20,
+      "max_degree": 75,
+      "mean_causal_types": 157.0,
+      "mean_edges": 1663.6,
+      "vertices": 512
+    },
+    {
+      "graphs": 20,
+      "max_degree": 95,
+      "mean_causal_types": 204.5,
+      "mean_edges": 3277.2,
+      "vertices": 1024
+    },
+    {
+      "graphs": 20,
+      "max_degree": 144,
+      "mean_causal_types": 271.45,
+      "mean_edges": 6658.0,
+      "vertices": 2048
+    },
+    {
+      "graphs": 20,
+      "max_degree": 297,
+      "mean_causal_types": 372.55,
+      "mean_edges": 13112.4,
+      "vertices": 4096
+    },
+    {
+      "graphs": 20,
+      "max_degree": 280,
+      "mean_causal_types": 507.4,
+      "mean_edges": 26635.6,
+      "vertices": 8192
+    }
+  ],
+  "schema_version": 2,
+  "seed": 260724,
+  "selection": {
+    "frontier": [
+      {
+        "candidate": 0,
+        "development_loss": 0.006755937672,
+        "development_mean_regret": 0.0,
+        "development_relative_error": 5.9085e-08,
+        "development_storage_fraction": 0.577213541667,
+        "fourier_storage_fraction": 0.491901127707,
+        "fourier_tolerance": 1e-09,
+        "hierarchical_tolerance": 1e-07,
+        "max_rank": 28
+      },
+      {
+        "candidate": 1,
+        "development_loss": 0.003752127684,
+        "development_mean_regret": 3.144e-09,
+        "development_relative_error": 7.117631e-06,
+        "development_storage_fraction": 0.358430989583,
+        "fourier_storage_fraction": 0.083907296829,
+        "fourier_tolerance": 1e-06,
+        "hierarchical_tolerance": 1e-05,
+        "max_rank": 24
+      },
+      {
+        "candidate": 2,
+        "development_loss": 0.001693197901,
+        "development_mean_regret": 0.0,
+        "development_relative_error": 0.000287144184,
+        "development_storage_fraction": 0.15361328125,
+        "fourier_storage_fraction": 0.078491318488,
+        "fourier_tolerance": 0.0001,
+        "hierarchical_tolerance": 0.0005,
+        "max_rank": 18
+      },
+      {
+        "candidate": 3,
+        "development_loss": 0.001025728018,
+        "development_mean_regret": 3.476804e-06,
+        "development_relative_error": 0.003386064486,
+        "development_storage_fraction": 0.088444010417,
+        "fourier_storage_fraction": 0.063172838656,
+        "fourier_tolerance": 0.001,
+        "hierarchical_tolerance": 0.005,
+        "max_rank": 12
+      }
+    ],
+    "loss_definition": "L_CHC = relative_frobenius_error^2 + mean_grid_regret + 0.01*h_storage_fraction + 0.002*fourier_storage_fraction + 100*certificate_violation",
+    "selected_candidate": 3,
+    "selected_fourier_tolerance": 0.001,
+    "selected_hierarchical_tolerance": 0.005,
+    "selected_max_rank": 12
+  },
+  "statevector_audit": {
+    "statevector_comparisons": 24,
+    "statevector_max_abs_error": 0.0
+  },
+  "title": "Auditing Hierarchical Subspace Learning for Depth-One QAOA Landscapes"
+}

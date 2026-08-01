@@ -1,0 +1,63 @@
+{
+  "claim_status": "application-specific audit; no new generic matrix-free, hierarchical, subspace-iteration, or log-determinant algorithm is claimed",
+  "commands": {
+    "install": "python -m pip install .",
+    "reproduce": "HQML_GSET_CACHE=/tmp/hqml-gset hierarchical-qaoa-reproduce --profile paper --verify",
+    "test": "python -m unittest discover -s tests -v"
+  },
+  "package": "hqml-hierarchical-gctr",
+  "profile": "paper",
+  "public_data": [
+    {
+      "name": "Stanford Gset G1",
+      "sha256": "73bf704d8ffc55ba42260ab4cb659e3dcb6e729be70404d2cf476ba4e46d1665",
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G1"
+    },
+    {
+      "name": "Stanford Gset G6",
+      "sha256": "e3dd8b29205280f1ad5806849321cdff6f11324c75cb95647d5783f3e47a1103",
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G6"
+    },
+    {
+      "name": "Stanford Gset G11",
+      "sha256": "c2a760d2926db4fefd23b25c098dcd6311f711b355dbd1cc689fa25660c73174",
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G11"
+    },
+    {
+      "name": "Stanford Gset G14",
+      "sha256": "dc769b978a40d458f693d5bd2cf8b8cceabd430b8e976204746696179c3d5945",
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G14"
+    },
+    {
+      "name": "Stanford Gset G18",
+      "sha256": "6185af31fae0f7d59e232dad91178753574b7caa111dd6e6bf52f11c80e928d8",
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G18"
+    },
+    {
+      "name": "Stanford Gset G22",
+      "sha256": "9baeee06eb147b1c9ca42b43be86592d4e6fc60784a85af9be5b63d1362ef28e",
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G22"
+    },
+    {
+      "name": "Stanford Gset G32",
+      "sha256": "9760fce6b601832db1b1173c1a09c8556d64bfb27ba603ef52ca24ee6c8527cc",
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G32"
+    },
+    {
+      "name": "Stanford Gset G43",
+      "sha256": "9af5445b4b066cbf1eabe218d4e0d907cb6f211651cae557c761ec344dc37be8",
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G43"
+    }
+  ],
+  "runtime": {
+    "machine": "arm64",
+    "numpy": "2.4.3",
+    "processor": "arm",
+    "python": "3.13.12",
+    "system": "Darwin"
+  },
+  "schema_version": 2,
+  "seed": 260724,
+  "title": "Auditing Hierarchical Subspace Learning for Depth-One QAOA Landscapes",
+  "weighted_gset": false
+}
